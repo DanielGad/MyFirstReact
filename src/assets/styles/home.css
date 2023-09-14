@@ -1,0 +1,130 @@
+.home {
+  position: relative;
+  padding-top: 5px;
+  background-image: url(../images/diverse-coworkers-going-down-urban-footpath.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 500px;
+}
+
+.con1 h1 {
+  position: absolute;
+  top: 120px;
+  left: 180px;
+  margin-top: 0px;
+  color: blue;
+  text-align: center;
+  font-size: 36px;
+}
+
+.con2 h1 {
+  position: absolute;
+  top: 120px;
+  right: 120px;
+  margin-top: 0px;
+  color: blue;
+  text-align: center;
+  font-size: 36px;
+}
+
+.con1 p {
+  position: absolute;
+  top: 200px;
+  left: 90px;
+  width: 25%;
+  text-align: center;
+  margin-top: -20px;
+  background-color: white;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.con2 p {
+  position: absolute;
+  top: 200px;
+  right: 80px;
+  width: 25%;
+  text-align: center;
+  margin-top: -20px;
+  background-color: white;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.learn {
+  position: absolute;
+  top: 270px;
+  left: 200px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.learn2 {
+  position: absolute;
+  top: 270px;
+  right: 175px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.learn:hover, .learn2:hover {
+  background-color: orange;
+}
+
+.blog h2, .service h2, .about h2, .contact h2 {
+  text-align: center;
+}
+
+.check-out {
+  position: absolute;
+  left: 55px;
+  bottom: -45px;
+  width: 90%;
+  padding: 45px 0;
+  background-color: lightblue;
+  z-index: 1;
+}
+
+.check-out h4 {
+  position: absolute;
+  bottom: 32px;
+  left: 400px;
+  margin: 0%;
+  display: inline-block;
+  
+}
+
+.check-out button {
+  position: absolute;
+  bottom: 27px;
+  left: 650px;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 3px 10px;
+  background-color: lightblue;
+  border-radius: 3px;
+  font-family: quicksand;
+  cursor: pointer;
+}
+
+.home2 {
+  position: relative;
+  top: -15px;
+  background-color: white;
+  height: 300px;
+  text-align: center;
+  margin: 0 -5px;
+}
+
+.home2 p {
+  padding-top: 80px;
+}

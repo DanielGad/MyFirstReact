@@ -1,0 +1,95 @@
+body {
+  background-color: lightblue;
+}
+.contact {
+  position: relative;
+  padding-top: 5px;
+  background-image: url(../images/20150427231920-banker-bank-loan-small-business-hand-shake-deal.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  display: flex;
+}
+
+.contact h1 {
+  position: absolute;
+  bottom: 80px;
+  left: 430px;
+  background-color: white;
+  width: 30%;
+  padding: 20px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact1 {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  text-align: center;
+  left: 70px;
+  margin-top: 50px;
+  border: 2px solid white;
+  padding: 20px;
+  padding-top: 10px;
+}
+
+.contact1 input, .contact1 textarea, .contact1 select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+}
+
+.contact1 button {
+  background-color: blue;
+  color: #fff;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.img-con {
+  position: absolute;
+  display: inline-block;
+  right: 70px;
+  margin-top: 50px;
+  width: 600px;
+}
+
+.img-con img {
+  width: 600px;
+  height: 480px;
+  border-radius: 20px;
+}
+
+.con-1 {
+  position: absolute;
+  top: 90px;
+  left: 100px;
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.con-1 .icon {
+  width: 15px;
+  height: 15px;
+  border-radius: 0;
+  display: inline-block;
+}
+
+.p1 {
+  display: inline-block;
+  font-size: small;
+  margin-left: 10px;
+  text-align: center;
+  margin-bottom: -15px;
+}
+

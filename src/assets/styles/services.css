@@ -1,0 +1,71 @@
+body {
+  background-color: lightblue;
+}
+.service {
+  position: relative;
+  padding-top: 5px;
+  background-image: url(../images/successful-female-mix-raced-business-partners-posing-outside.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+  position: relative;
+  bottom: -270px;
+}
+
+.service h1 {
+  position: absolute;
+  bottom: 50px;
+  left: 430px;
+  background-color: white;
+  width: 30%;
+  padding: 30px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.service-con {
+  width: 250px;
+  background-color: white;
+  border: 2px solid antiquewhite;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.service-con button {
+  background-color: blue;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.service-con button:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+.service2 {
+  position: relative;
+  bottom: -225px;
+  background-color: white;
+  height: 300px;
+  text-align: center;
+  margin: 0 -5px;
+}
+
+.service2 p {
+  padding-top: 80px;
+}
+
+
